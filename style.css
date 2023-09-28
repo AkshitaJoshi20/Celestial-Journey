@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+@font-face{
+    font-family: namefont;
+    src: url(GameOfSquids.ttf);
+}
+@font-face{
+    font-family: spaceFont;
+    src: url(SPHERE-FEZ.ttf);
+}
+hr{
+    border-top: 2px;
+    display: block;
+   margin-top: -10px;
+   margin-left:10px;
+   margin-right: 10px;
+   border-color: #9794906e;
+}  
+#logo{
+    width: 60px;
+    height: 40px;
+    margin: 40px;
+    margin-left: 40px;
+}
+li{
+    list-style-type: none;
+    display:inline;
+}
+.NavCon a{
+    color: #d1d4d7;
+    text-decoration: none;
+    padding: 5px 12px;
+    font-size: 18px;
+}
+.Nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    justify-content: space-between;
+    height: 15%;
+}
+#NavL{
+    display:flex;
+    margin-left: -18px;
+}
+#name{
+    font-size: 24px; 
+    color: aliceblue;
+    margin-left: -30px;
+    margin-top: 1cm;
+    font-family: namefont;   
+}
+#Space{
+    font-family: spaceFont;
+    color: whitesmoke;
+    font-size: 66px;
+    margin-top: 13vh;
+    margin-left: 13vh;
+    letter-spacing: 0.1px;
+}
+#exp{
+        font-family: spaceFont;
+        color: whitesmoke;
+        font-size: 56px;
+        margin-top: 0.1vh;
+        margin-left: 13vh; 
+        letter-spacing: 1px;
+}
+#name1{
+    color: #d1d4d7;
+    text-align: center;
+    font-size: 48px;
+    background-image: linear-gradient(to right,#05090d,#010204,#05090d,#010204,#070a11,#090c13,#010204,#05090d,#010204,#05090d,#010204,#090c11,#06090e,#010204,#090e14,#010204,#0a0d14,#080b12,#010204,#05080e,#05080e,#010204,#05090d,#05080d);   
+}
